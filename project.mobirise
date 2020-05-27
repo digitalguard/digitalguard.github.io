@@ -44,11 +44,19 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "favicon": "",
+    "favicon": false,
     "noImageResize": "",
     "uniqCompNum": 23,
     "versionPublish": "4.12.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-110222205-2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-110222205-2');\n</script>\n",
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -742,24 +750,6 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/cityconnected-1920x1214.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Digital Identities and security for Internet of Things",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "New customer experiences enabled by management of identities of everything",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"index.html#content4-8\" data-toolbar=\"-mbrBtnMove\">Read more...</a> ",
-                "overlayOpacity": "0.3"
-              },
-              {
                 "image": "@PROJECT_PATH@/assets/images/descobrimentos5-2000x1500.jpg",
                 "active": false,
                 "showButtons": true,
@@ -773,9 +763,29 @@
                 "title": "<br>Building relevant customer experiences requires a new approach to identity management",
                 "overlay": true,
                 "contentAlign": "right",
-                "text": "New customer experiences enabled by management of identities of everything",
+                "text": "requires a better way of doing identity management",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"index.html#content4-8\" data-toolbar=\"-mbrBtnMove\">Read more...</a> ",
-                "overlayOpacity": "0.2"
+                "overlayOpacity": "0.2",
+                "textTitle": "Creating relevant customer experiences"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/cityconnected-1920x1214.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Digital Identities and security for Internet of Things",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": "means managing identities of everything&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"index.html#content4-8\" data-toolbar=\"-mbrBtnMove\">Read more...</a> ",
+                "overlayOpacity": "0.3",
+                "textTitle": "Connecting everything to everything"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/lx-1080x720.jpg",
@@ -791,10 +801,10 @@
                 "title": "Digital Guard Rails protects customer data &amp; enables new revenues&nbsp;",
                 "overlay": true,
                 "contentAlign": "right",
-                "text": "Micro services, APIs, SDKs, and Dashboards providing DevOps convenience&nbsp;",
+                "text": "micro services, APIs, SDKs, and Dashboards providing DevOps convenience&nbsp;",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"index.html#features18-i\" data-toolbar=\"-mbrBtnMove\">Read more...</a> ",
                 "overlayOpacity": "0.4",
-                "textTitle": ""
+                "textTitle": "Digital guard rails protecting customer data"
               }
             ]
           }
