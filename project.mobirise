@@ -32,7 +32,8 @@
         "#308038",
         "#08393b",
         "#3aa326",
-        "#0c2f45"
+        "#0c2f45",
+        "#000000"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -745,13 +746,13 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": true,
+            "slides__autoplay": "hover",
             "slides__autoplayInterval": "8000",
             "slides__showBullets": true,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/descobrimentos5-2000x1500.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -766,7 +767,8 @@
                 "text": "requires a better way of doing identity management",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"index.html#content4-8\" data-toolbar=\"-mbrBtnMove\">Read more...</a> ",
                 "overlayOpacity": "0.2",
-                "textTitle": "Creating relevant customer experiences"
+                "textTitle": "Creating relevant customer experiences",
+                "overlayColor": "#000000"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/cityconnected-1920x1214.jpg",
@@ -789,7 +791,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/lx-1080x720.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -801,7 +803,7 @@
                 "title": "Digital Guard Rails protects customer data &amp; enables new revenues&nbsp;",
                 "overlay": true,
                 "contentAlign": "right",
-                "text": "micro services, APIs, SDKs, and Dashboards providing DevOps convenience&nbsp;",
+                "text": "via micro services, APIs, SDKs, and Dashboards for DevOps convenience&nbsp;",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"index.html#features18-i\" data-toolbar=\"-mbrBtnMove\">Read more...</a> ",
                 "overlayOpacity": "0.4",
                 "textTitle": "Digital guard rails protecting customer data"
