@@ -46,7 +46,7 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
-    "robotsSwitcher": true,
+    "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
@@ -59,7 +59,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "TrustLabs - digital identities",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
