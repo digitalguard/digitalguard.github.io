@@ -46,11 +46,13 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-110222205-2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-110222205-2');\n</script>\n",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "gdpr": false
   },
   "pages": {
